@@ -1,0 +1,35 @@
+.profile-page-container {
+  background-color: #f0f3f7;
+  min-height: 100vh;
+  background-size: cover;
+  padding: 5px 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .profile-page-container {
+    padding: 0;
+  }
+  .user-name {
+    display: none;
+  }
+  .user-id {
+    display: none;
+  }
+  .user-bio {
+    display: none;
+  }
+  .span-text {
+    margin-bottom: 20px;
+  }
+  .mobile {
+    margin: 5px;
+  }
+}
+@media screen and (min-width: 769px) {
+  .span-text {
+    display: none;
+  }
+  .mobile {
+    display: none;
+  }
+}
